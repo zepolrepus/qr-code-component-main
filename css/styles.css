@@ -6,6 +6,7 @@
     --light-gray: hsl(212, 45%, 89%);
     --grayish-blue: hsl(220, 15%, 55%);
     --dark-blue: hsl(218, 44%, 22%);
+    --shadow: hsla(218, 44%, 22%, 0.09);
 }
 
 body {
@@ -27,7 +28,7 @@ main {
     background-color: var(--white);
     place-self: center;
     border-radius: 20px;
-    box-shadow: 1px 5px 5px 1px var(--grayish-blue);
+    box-shadow: 1px 5px 25px 4px var(--shadow);
 }
 
 .card img {
