@@ -35,7 +35,7 @@ main {
 }
 
 .card .content {
-    margin: 22px;
+    margin: 16px;
     text-align: center;
     font-size: 22px;
     font-weight: bold;
@@ -43,7 +43,7 @@ main {
 }
 
 .card .content p {
-    margin: 22px;
+    margin: 16px;
     font-size: 15px;
     font-weight: normal;
     color: var(--grayish-blue);
