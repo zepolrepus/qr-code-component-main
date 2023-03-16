@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap');
+
+
+:root {
+    --white: hsl(0, 0%, 100%);
+    --light-gray: hsl(212, 45%, 89%);
+    --grayish-blue: hsl(220, 15%, 55%);
+    --dark-blue: hsl(218, 44%, 22%);
+}
+
+body {
+    background-color: var(--light-gray);
+}
+
+main {
+    width: 100%;
+    min-height: 100vh;
+    display: grid;
+}
+
+.card {
+    height: 497px;
+    width: 320px;
+    background-color: var(--white);
+    place-self: center;
+    border-radius: 20px;
+    box-shadow: 1px 5px 5px 1px var(--grayish-blue);
+}
+
+.card img {
+    width: 288px;
+    height: 288px;
+    margin: 16px;
+    border-radius: 10px;
+}
+
+.card .content {
+    margin: 22px;
+    text-align: center;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--dark-blue);
+}
+
+.card .content p {
+    margin: 22px;
+    font-size: 15px;
+    font-weight: normal;
+    color: var(--grayish-blue);
+}
